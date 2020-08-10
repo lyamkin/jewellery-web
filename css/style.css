@@ -87,21 +87,54 @@ body {
     }
 }
 @media only screen and (max-width: 767.98px) {
-    
+
     html {
     font-size: 87.5%; 
     }
 
     #services-section {
+        background: url(../img/manufacturing-1200.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
         min-height: 550px;
     }
         
     .card-columns {
         column-count: 1;
     }
+
+    #showcase-section {
+        background: url(../img/heart-1200.jpeg); 
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        min-height: 500px;
+    }
+
+    #showcase-section .dark-overlay {
+        min-height: 500px;
+    }
 }
 @media only screen and (max-width: 575.98px) {
     html {
     font-size: 81.25%; 
+    }
+
+    #showcase-section {
+        background: url(../img/heart-800.jpeg); 
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        min-height: 450px;
+    }
+
+    #showcase-section .dark-overlay {
+        min-height: 450px;
+    }
+
+    #services-section {
+        background: url(../img/manufacturing-800.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
